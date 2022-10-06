@@ -1,0 +1,13 @@
+h2 {
+    background:linear-gradient(to right,#1D2B64,#F8CDDA);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+    font-size: 200px;
+    text-align: center;
+   
+
+    
+    
+}

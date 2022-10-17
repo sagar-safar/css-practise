@@ -1,0 +1,19 @@
+/* Pseudo elements */
+
+p::first-line{        /* changes the first line of paragraph */
+    color:aqua;   
+}
+
+h1::first-letter{     /* chnages the first letter of heading*/
+    color:red;
+}
+
+p::selection{         /* changes the css properties of selected elements*/
+    color:brown;
+    
+}
+
+h2::before{
+    content:"except krishna ";
+}
+

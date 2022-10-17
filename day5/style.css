@@ -1,0 +1,18 @@
+:root{
+    --danger-color:red;      /* Global Variable */
+}
+
+.Box{
+    width:50%;
+    background-color: var(--danger-color);
+    padding: 10px;
+   
+
+
+}
+
+.box{
+    --box-color:pink;       /* Local Variable */
+    height:50px;
+    background-color: var(--box-color);
+}

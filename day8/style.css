@@ -1,0 +1,18 @@
+div{
+    height: 200px;
+    width: 200px;
+    margin:auto;
+    margin-top: 200px;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+div:hover{
+   
+    
+    border:10px solid orangered;
+   
+    
+}

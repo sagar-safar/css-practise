@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Roboto:wght@700&display=swap');
+
+.krishna{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    text-align: center;
+  
+    color:rgb(139, 64, 224);
+    text-shadow: -5px 4px black;
+}
+.krishna:hover{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    text-align: center;
+   
+    color:orangered;
+    text-shadow: -8px 6px black;
+}
+
+
+.radha{
+    font-family: 'Niconne',sans-serif;
+    font-size: 180px;
+    text-align: center;
+    background-color:#d52e3f;
+    color:white;
+    text-shadow: 2px 3px red,3px 4px orange,5px 6px violet,10px 15px greenyellow;
+
+
+
+}

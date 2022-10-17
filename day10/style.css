@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Niconne&family=Poppins:ital,wght@1,200&family=Roboto:wght@700&display=swap');
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color:aqua;
+}
+.button{
+    
+    font-size: large;
+    width: 140px;
+    border:5px solid aqua;
+    text-align: center;
+    text-transform: uppercase;
+    padding:10px 20px;
+    font-family: 'poppins';
+    border-radius: 50px;
+    transition: 1.5s;
+    transition-timing-function: cubic-bezier(0,2.24,.94,-0.2);
+    letter-spacing: 8px;
+    margin:auto;
+    margin-top: 300px;
+
+}
+
+.button:hover{
+    padding:16px 32px;
+    box-shadow: 3px 5px 30px aqua inset,3px 5px 80px aqua;
+    text-shadow: 2px 3px 20px;
+}

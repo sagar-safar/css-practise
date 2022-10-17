@@ -1,0 +1,78 @@
+body{
+    margin:0;
+}
+
+.vertical-nav{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    width:25%;
+    background-color: mediumpurple;
+    position: fixed;
+    height: 100vh;
+    top:0;
+  
+    overflow:scroll;
+    border:3px solid olivedrab;
+}
+h1{
+    margin-left: 27%;
+    margin-top: 14%;
+}
+p{
+    
+    margin-left: 27%;   
+}
+li a{
+    display: block;
+    padding:8px 16px;
+    text-decoration: none;
+    color:white;
+}
+
+li a:hover{
+    background-color: black;
+    color:white;
+    letter-spacing: 5px;
+    
+}
+/* horizontal navbar */
+div a{
+    display: inline-block;
+    width:15%;
+    
+    color:white;
+    text-decoration: none;
+    padding:8px 16px;
+}
+
+.box{
+    margin-left: 27%;
+    background-color: mediumpurple;
+    position: fixed;
+    width:73%;
+    
+    top:0;
+    box-shadow: -4px 6px 20px black, -4px 6px 20px inset;
+    
+    
+}
+
+
+.home{
+    color:black;
+    height: 22px;
+    width: 20px;
+ 
+   
+}
+
+.home:hover{
+    color:white;
+    
+}
+
+div a:hover{
+    color:aqua;
+}
+

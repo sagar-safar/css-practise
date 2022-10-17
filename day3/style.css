@@ -1,0 +1,27 @@
+.div1{
+    background-color: red;
+    height: 50px;
+    width:25%;
+    float:right;
+}
+
+.div2{
+    background-color:aqua;
+    width:25%;
+    float:right;
+    height: 50px;
+}
+.div3{
+    background-color: salmon;
+    width:25%;
+    float: right;
+    
+    height: 50px;
+}
+.div4{
+    background-color: blue;
+    width:25%;
+    
+    height: 50px;
+    clear:right;
+}

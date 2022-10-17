@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Niconne&family=Roboto:wght@700&display=swap');
+
+
+
+
+
+
+::selection{
+    background-color: aqua;
+    color:rgb(157, 72, 236);
+}
+body{
+    background: url(./image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+input{
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: 'Roboto';
+    
+   
+   
+    
+}
+
+.radio-box{
+    margin-bottom: 0;
+}
+
+.checkbox{
+    margin-bottom: 0;
+}
+
+.form{
+    width: 40%;
+    margin:auto;
+    
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 20px;
+    
+}
+form{
+    margin: 50px;
+}
+.size{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    color:aqua;
+}
+.size:hover{
+    background-color: rgb(139, 202, 202);
+    
+    
+    
+}
+input:focus::placeholder{
+    color:aqua;
+
+}
+input:hover::placeholder{
+    font-size: larger;
+    color: #fff;
+    text-shadow: 1px 2px 5px red;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Roboto';
+    color: white;
+    
+}
+h2:hover{
+    color:aqua;
+}
+
+#submit{
+    width:50%;
+    background-color: orangered;
+    color:white;
+    border-radius: 3px;
+    border: 1px solid white ;
+}
+
+#submit:hover{
+    background-color:rgb(139, 202, 202);
+    color:#fff;
+    font-size: large;
+    text-shadow: 1px 2px 5px red;
+
+}
+
+
+label{
+    font-family: 'Montserrat';
+    color:white;
+}
+label:hover{
+    color:aqua;
+}
+
+input[type=radio]{
+    accent-color: aqua;
+}
+
+input[type=checkbox]{
+    accent-color: aqua;
+}
+input[type=radio]:hover{
+    color: aqua;
+}
+
+input[type=checkbox]:hover{
+    accent-color: aqua;
+}
